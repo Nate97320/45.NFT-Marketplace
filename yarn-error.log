@@ -1,0 +1,55 @@
+Arguments: 
+  /home/nate/.nvm/versions/node/v16.14.2/bin/node /home/nate/.nvm/versions/node/v16.14.2/bin/yarn add expo
+
+PATH: 
+  ./bin:./node_modules/.bin:/home/nate/.pyenv/bin:/home/nate/.rbenv/bin:/home/nate/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:./bin:./node_modules/.bin:/home/nate/.nvm/versions/node/v16.14.2/bin:/home/nate/.pyenv/bin:/home/nate/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/mongodb/bin:/mnt/c/Users/nate-/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nate-/AppData/Local/atom/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/nate-/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/nate-/AppData/Local/Programs/Microsoft VS Code/bin:/usr/local/sbin:/usr/local/sbin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/nate/.cache/yarn/v6/npm-braces-3.0.2-3454e1a462ee8d599e236df336cd9ea4f8afe107-integrity/node_modules/braces/index.js' -> '/mnt/c/Users/nate-/OneDrive/Desktop/coding/66.react-native/node_modules/fast-glob/node_modules/braces/index.js'
+
+npm manifest: 
+  {
+    "name": "66.react-native",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo/spawn-async": "^1.6.0",
+      "@react-navigation/native": "^6.0.10",
+      "@react-navigation/stack": "^6.2.1",
+      "expo": "^1.0.0",
+      "expo-status-bar": "~1.0.4",
+      "expo-updates": "^0.11.6",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-gesture-handler": "~1.10.2",
+      "react-native-safe-area-context": "3.2.0",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
